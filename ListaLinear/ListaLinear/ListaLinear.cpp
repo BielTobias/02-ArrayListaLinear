@@ -104,8 +104,23 @@ void inserirElemento()
 // deve ser implementada como resposta ao exercicio
 void buscarElemento()
 {
-	
-	
-	for()
+	int numerob;
+	int compara;
+	int variavel=0;
 
+	cout << "Que numero deseja buscar?\n";
+	cin >> compara;
+
+	for (numerob = 0; numerob < nElementos; numerob++) {
+		if (compara == lista[numerob])
+		{
+			cout << "O numero esta na posicao " << numerob << endl;
+			variavel = 1;
+		}
+	
+	}
+	if (variavel == 0) {
+		cout << "o numero nao foi encontrado\n";
+	}
 }
+
